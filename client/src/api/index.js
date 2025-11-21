@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mentorconnect-backend-o5mm.onrender.com/api",
+  baseURL: "https://mentorconnect-backend-o5mm.onrender.com/",
   withCredentials: true,
 });
 
