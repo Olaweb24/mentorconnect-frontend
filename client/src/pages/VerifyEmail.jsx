@@ -17,7 +17,7 @@ export default function VerifyEmail() {
 
     const verifyEmail = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/auth/verify-email/${token}`, {
+        const res = await fetch(`https://mentorconnect-backend-o5mm.onrender.com/api/auth/verify-email/${token}`, {
           method: "GET",
         });
 

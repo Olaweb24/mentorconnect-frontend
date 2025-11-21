@@ -11,7 +11,7 @@ export default function Home() {
 
     const fetchMentors = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/mentors", {
+        const res = await axios.get("https://mentorconnect-backend-o5mm.onrender.com/api/mentors", {
           headers: { Authorization: `Bearer ${user.token}` },
         });
         setMentors(res.data);
