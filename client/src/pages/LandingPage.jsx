@@ -52,8 +52,8 @@ export default function LandingPage() {
       {/* NAV */}
       <header className="max-w-7xl mx-auto p-6 md:px-8 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-lg bg-gradient-to-tr from-indigo-600 to-pink-500 flex items-center justify-center text-white font-bold">SN</div>
-          <div className="font-bold text-lg">SkillsNest</div>
+          <div className="h-10 w-10 rounded-lg bg-gradient-to-tr from-indigo-600 to-pink-500 flex items-center justify-center text-white font-bold">MC</div>
+          <div className="font-bold text-lg">MentorConnect</div>
         </div>
 
         <nav className="flex items-center gap-4">
@@ -93,7 +93,7 @@ export default function LandingPage() {
 
       {/* FEATURES */}
       <section className="max-w-6xl mx-auto px-6 md:px-8 py-12">
-        <h3 className="text-2xl font-bold mb-6">Why SkillsNest?</h3>
+        <h3 className="text-2xl font-bold mb-6">Why MentorConnect?</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <FeatureCard
             icon="🤝"
@@ -147,7 +147,7 @@ export default function LandingPage() {
         <div className="bg-gradient-to-r from-indigo-600 to-pink-500 text-white rounded-2xl p-8 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h4 className="text-2xl font-bold">Trusted by thousands</h4>
-            <p className="opacity-90 mt-2">Students and mentors across the world use SkillsNest to grow careers.</p>
+            <p className="opacity-90 mt-2">Students and mentors across the world use MentorConnect to grow careers.</p>
           </div>
           <div className="flex gap-8 text-center">
             <div>
@@ -171,7 +171,7 @@ export default function LandingPage() {
         <h3 className="text-2xl font-bold mb-6">Frequently asked questions</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <FAQItem
-            q="Who can join SkillsNest?"
+            q="Who can join MentorConnect?"
             a="Students, early-career professionals, and experienced mentors — anyone who wants to learn or help others."
             open={openFaq === 0}
             onToggle={() => setOpenFaq(openFaq === 0 ? null : 0)}
@@ -201,7 +201,7 @@ export default function LandingPage() {
       <footer className="bg-white border-t mt-12">
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <div className="font-bold text-lg mb-2">SkillsNest</div>
+            <div className="font-bold text-lg mb-2">MentorConnect</div>
             <p className="text-gray-600 text-sm">Connect with mentors, book sessions, and grow your career.</p>
           </div>
           <div className="text-sm text-gray-600">
@@ -221,7 +221,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="text-center text-xs text-gray-400 py-4">© {new Date().getFullYear()} SkillsNest — Built for SDG 4: Quality Education</div>
+        <div className="text-center text-xs text-gray-400 py-4">© {new Date().getFullYear()} MentorConnect — Built for SDG 4: Quality Education</div>
       </footer>
     </div>
   );
